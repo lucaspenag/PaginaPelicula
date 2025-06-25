@@ -1,0 +1,18 @@
+main{    
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "trama trailer"
+    "poster poster";
+}
+
+#trailer{
+    grid-area:trailer;
+}
+#trama{
+    grid-area:trama;
+}
+#poster{
+    grid-area:poster;
+}

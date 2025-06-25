@@ -1,0 +1,27 @@
+main{    
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "imagen sinopsis"
+    "imagen locacion"
+    "imagen filmacion"
+    "imagen bandaSonora";
+}
+
+#sinopsis{
+    grid-area:sinopsis;
+}
+#locacion{
+    grid-area:locacion;
+}
+#filmacion{
+    grid-area:filmacion;
+}
+#bandaSonora{
+    grid-area:bandaSonora;
+}
+
+.class{
+    grid-area:imagen;
+}

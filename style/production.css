@@ -1,0 +1,27 @@
+main{    
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "desarrollo desarrollo"
+    "diseñoSet diseñoSet"
+    "diseñoVestuario diseñoVestuario"
+}
+
+#desarrollo{
+    grid-area:desarrollo;
+}
+
+#diseñoSet{
+    grid-area:diseñoSet;
+}
+
+#diseñoVestuario{
+    grid-area:diseñoVestuario;
+}
+
+.contenido{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+}
