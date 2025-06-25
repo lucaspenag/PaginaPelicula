@@ -1,10 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 body{
     background-color: #FFECAF;
     color: #5C2028;
     font-family: 'Josefin Sans';
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
 }
 header{
     text-align: center;
+    grid-area: header;
+}
+main{
+    grid-area:main;
+}
+footer{
+    grid-area:footer;
 }
 h1{
     font-size: 40px;
