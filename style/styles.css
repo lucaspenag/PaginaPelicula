@@ -28,6 +28,7 @@ header{
 }
 main{
     grid-area:main;
+    padding: 20px 190px;
 }
 footer{
     grid-area:footer;
@@ -37,12 +38,13 @@ h1{
 }
 h2{
     font-size: 32px;
+    padding: 10px 0px;
 }
 h3{
     font-size: 24px;
 }
 p{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
 }
 nav{
@@ -58,6 +60,8 @@ hr{
     width: 700px;
 }
 .centrar{
+    display:grid;
+    place-content: center;
     text-align: center;
 }
 .subrayado{
@@ -70,22 +74,11 @@ hr{
     display: flex;
     align-items: center;
 }
-.liReparto{
-    text-align: center;
-    margin-left: -20px;
-    font-style: italic;
-}
+
 .ulStyle{
     list-style-type: none;
 }
 
-.imgReparto{
-    border-style:solid;
-    border-color: #E86A68;
-    border-radius: 12px;
-    width: 245px;
-    height: 313px;
-}
 #imgBorder{
     height: 600px;
     border-style:solid;
