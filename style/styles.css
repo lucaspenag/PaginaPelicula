@@ -36,6 +36,7 @@ main{
 footer{
     grid-area:footer;
     text-align: center;
+    margin-bottom: 15px;
 }
 h1{
     font-size: 40px;
@@ -52,7 +53,7 @@ p{
     line-height: 30px;
 }
 nav{
-    margin-left: 35%;
+    margin-left: 30%;
 }
 hr{
     background-color: #5C2028;
@@ -62,20 +63,16 @@ hr{
 .hrlength{
     width: 700px;
 }
-/* .centrar{
-    display:grid;
-    place-content: center;
-    text-align: center;
-} */
 .subrayado{
     text-decoration: underline;
 }
 #navList{
     list-style-type: none;
-    margin:0;
+    margin:0px;
     padding:0;
     display: flex;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .ulStyle{
@@ -90,13 +87,18 @@ hr{
 .aList{
     text-decoration: none;
     color: #5C2028;
+    font-size: 25px;
+}
+
+.aList:hover{
+    background-color: #5C2028;
+    color: #FFECAF;
 }
 .navItem{
     margin-right: 1rem;
     border-style:solid;
     border-color: #E86A68;
-    border-radius: 12px;
-    padding: 4px;
+    padding: 5px;
 }
 
 .textoImagen{

@@ -1,0 +1,18 @@
+.ulStyle li a{
+    text-decoration: underline;
+    color: #333;
+    transition: text-decoration 0.3s ease,color 0.3 ease;
+}
+.ulStyle li p{
+    color: #5C2028;
+    transition: color 0.3 ease;
+}
+
+.ulStyle li a:hover{
+    text-decoration: none;
+    color:#5C2028;
+}
+
+.ulStyle li:hover p{
+    color:black;
+}
