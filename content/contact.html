@@ -32,9 +32,9 @@
             </nav>
         </header>
         <main id="mainContact">
-            <section>
-                <h2 class="centrar">Información de contacto</h2>
-                <div class="centrar">
+            <section id="enlaces">
+                <h2>Información de contacto</h2>
+                <div>
                     <ul class="ulStyle" >
                         <li><p>Sitio web oficial: </p><img src="../img/world-wide-web.png" alt="World wide web"> <a id="primeraImagen"
                                 href="https://www.searchlightpictures.com/thegrandbudapesthotel">searchlightpictures.com/thegrandbudapesthotel</a>
@@ -42,14 +42,16 @@
                         <li><p>Facebook: </p><img src="../img/facebook-app-symbol.png" alt="Facebook icon"> <a
                                 href="https://www.facebook.com/TheGrandBudapestHotel">facebook.com/TheGrandBudapestHotel</a>
                         </li>
-                        <li><p> Instagram:</p><img src="../img/instagram.png" alt="Instagram icon"><a
+                        <li><p> Instagram:</p><img src="../img/instagram.png" alt="Instagram icon"> <a
                                 href="https://www.instagram.com/the.grandbudapest.hotel/">instagram.com/the.grandbudapest.hotel</a>
                         </li>
                     </ul>
                     </div>
             </section>
 
-            <form action="" method="POST">
+
+            <form action="confirmacion.html" method="GET">
+                <p>Para contactar a Wes Anderson</p>
                 <div>
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
@@ -63,15 +65,15 @@
                     <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
                 </div>
                 <div>
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" row="6" placeholder="Escribe tu mensaje aca..." required></textarea>
+                    <label id="mensajeLabel" for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" cols="50" placeholder="Escribe tu mensaje aca..." required></textarea>
                 </div>
                 <div>
                     <button type="submit">Enviar Mensaje</button>
                 </div>
             </form>
         </main>
-        <footer class="centrar">
+        <footer>
             Lucas Rafael Peña Gutierrez - lucas.penag@davinci.edu.ar - 2025
         </footer>
     </body>

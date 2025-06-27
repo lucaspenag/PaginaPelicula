@@ -16,3 +16,33 @@
 .ulStyle li:hover p{
     color:black;
 }
+
+main{
+    text-align: center;    
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    grid-template-areas: 
+    "enlaces"
+    "formulario";
+}
+P{
+    padding-top: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: formulario;
+}
+
+#email{
+    margin-right: 63px;
+}
+
+#enlaces{
+    grid-area: enlaces;
+}
