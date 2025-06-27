@@ -8,7 +8,8 @@ main{
     "imagen sinopsis"
     "imagen locacion"
     "imagen filmacion"
-    "imagen bandaSonora";
+    "imagen bandaSonora"
+    "musica musica";
 }
 
 #sinopsis{
@@ -22,6 +23,11 @@ main{
 }
 #bandaSonora{
     grid-area:bandaSonora;
+}
+
+#divMusica{
+    grid-area: musica;
+    text-align: center;
 }
 
 img{
