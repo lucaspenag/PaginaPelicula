@@ -40,9 +40,22 @@ form{
 }
 
 #email{
-    margin-right: 63px;
+    margin-right: 72px;
 }
 
 #enlaces{
     grid-area: enlaces;
+}
+
+#buttonEnviar{
+    background: transparent;
+    border-style:solid;
+    border-color: #E86A68;
+    color: #5C2028;
+}
+
+#buttonEnviar:hover{
+    cursor: pointer;
+    background-color:#5C2028;
+    color:#FFECAF;
 }

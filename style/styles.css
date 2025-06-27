@@ -53,7 +53,8 @@ p{
     line-height: 30px;
 }
 nav{
-    margin-left: 30%;
+    margin:0 auto;
+    width: 48%;
 }
 hr{
     background-color: #5C2028;
