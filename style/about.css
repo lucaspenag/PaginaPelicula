@@ -2,6 +2,8 @@ main{
     display:grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    row-gap: 5rem;
     grid-template-areas: 
     "imagen sinopsis"
     "imagen locacion"
@@ -22,6 +24,7 @@ main{
     grid-area:bandaSonora;
 }
 
-.class{
-    grid-area:imagen;
+img{
+    height: 500px;
+    width: 100%;
 }
